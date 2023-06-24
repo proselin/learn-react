@@ -1,5 +1,5 @@
 import Header from "./Components/Layout/Header/Header";
-import Meals from "./Components/Meals/Meals";
+import Index from "./Components/Meals";
 import {Fragment} from "react";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
         <Fragment>
             <Header/>
             <main>
-                <Meals/>
+                <Index/>
             </main>
         </Fragment>
     );
